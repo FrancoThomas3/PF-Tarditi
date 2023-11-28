@@ -1,0 +1,53 @@
+/* Encabezado */
+
+#encabezadoUno {
+  background-color: #E5E6E4;
+}
+
+/* LOGO */
+
+.tamLogo {
+  width: 60px;
+  height: 70px;
+}
+
+/* Fuentes */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Menu */
+
+#Menu {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Linea divisora */
+
+.lineaDivisora {
+  border: 1px solid #000;
+  margin: 100px 200px;
+  max-width: 100%;
+}
+
+/* Animaciones Principios */
+
+#grid {
+  background-image: linear-gradient(orange, blue);
+  border-radius: 20px;
+}
+
+/* Imganes de carousel */
+
+.carousel-inner {
+  max-height: 39rem;
+}

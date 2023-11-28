@@ -1,0 +1,58 @@
+/* MEDIA QUERIES PANTALLA */
+@media (max-width: 768px) {
+  #introduccion {
+    width: 90%;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 18rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1000.98px) {
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  footer {}
+}
+
+@media (max-width: 359px) {
+  footer {}
+
+  .cardBody {
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {}
+
+  .cardBody {
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+  }
+}

@@ -1,0 +1,131 @@
+.card {
+  width: 100%;
+  max-width: 18rem;
+  margin-bottom: 1rem;
+}
+
+.cardBody {
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+}
+
+.card-textUno {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.carDos {
+  background-image: linear-gradient(to left, red, yellow);
+}
+
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Encabezado */
+#encabezadoUno {
+  background-color: #E5E6E4;
+}
+
+/* LOGO */
+.tamLogo {
+  width: 60px;
+  height: 70px;
+}
+
+/* Fuentes */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Menu */
+#Menu {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Linea divisora */
+.lineaDivisora {
+  border: 1px solid #000;
+  margin: 100px 200px;
+  max-width: 100%;
+}
+
+/* Animaciones Principios */
+#grid {
+  background-image: linear-gradient(orange, blue);
+  border-radius: 20px;
+}
+
+/* Imganes de carousel */
+.carousel-inner {
+  max-height: 39rem;
+}
+
+/* MEDIA QUERIES PANTALLA */
+@media (max-width: 768px) {
+  #introduccion {
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+    max-width: 18rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 575.98px) {
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1000.98px) {
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 359px) {
+  .cardBody {
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .cardBody {
+    width: 100%;
+    max-width: 20rem;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

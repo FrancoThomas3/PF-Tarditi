@@ -1,0 +1,23 @@
+.card {
+  width: 100%;
+  max-width: 18rem;
+  margin-bottom: 1rem;
+}
+
+.cardBody {
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50px;
+}
+
+.card-textUno {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.carDos {
+  background-image: linear-gradient(to left, red, yellow);
+}
