@@ -22,37 +22,13 @@
   }
 }
 
-@media (max-width: 1000.98px) {
-  .card {
-    width: 100%;
-    margin-bottom: 1rem;
+@media (max-width: 768px) {
+  footer {
+      font-size: 14px;
   }
 
-  footer {}
-}
-
-@media (max-width: 359px) {
-  footer {}
-
-  .cardBody {
-    width: 100%;
-    max-width: 20rem;
-    margin-bottom: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  footer {}
-
-  .cardBody {
-    width: 100%;
-    max-width: 20rem;
-    margin-bottom: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 50px;
-  }
+  @media (max-width: 576px) {
+    footer {
+        font-size: 12px;
+    }
 }
